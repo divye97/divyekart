@@ -53,16 +53,21 @@
                 <ul>
                     <li data-index="rs-1587" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="img/home-slider/slider-1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
+                    
+                     <img src="images/logo-white.png"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                     <img src="images/logo.png"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                    <img src="images/master-card.png"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                    <img src="images/supper-add-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                     
-                    <img src="C:\Users\user\Desktop\persuit\img\home-slider\full-width-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                    <img src="images/parallax-2.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                     <img src="images/fav-icon.png"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                     
                     
-<img src="C:\Users\user\Desktop\persuit\img\product\sunglass-3.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                     <img src="images/slider-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                     <img src="images/slider-2.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                    
 
-
-
-                        <!-- LAYER NR. 1 -->
+                       <!-- LAYER NR. 1 -->
                         
                         <div class="slider_text_box">
                             <div class="tp-caption tp-resizeme first_text" 
@@ -134,7 +139,7 @@
                     </li>
                     <li data-index="rs-1588" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="img/home-slider/slider-2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="img/home-slider/full-width-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                    <img src="images/parallax-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
                         <!-- LAYERS -->
 
@@ -155,7 +160,7 @@
                             data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
                             data-textAlign="['left','left','left','left','center','center']"
                             >WOMEN'S DESIGNER</div>
-
+                            
                             <div class="tp-caption tp-resizeme secand_text" 
                                 data-x="['left','left','left','left','center','center']" 
                                 data-hoffset="['0','00','00','0']" 
@@ -221,16 +226,23 @@
                 <div class="right_full_feature">
                     <div class="full_feature_text">
                         <h4>Women Designer Sunglass</h4>
+                         
                         <h5>$45.05</h5>
                         <div class="sunglass_slider owl-carousel">
                             <div class="item">
                                 <img src="img/product/sunglass-1.jpg" alt="">
+                                <img src="images/sunglass-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        
                             </div>
                             <div class="item">
-                                <img src="img/product/sunglass-1.jpg" alt="">
+                                <img src="img/product/sunglass-2.jpg" alt="">
+                                <img src="images/sunglass-2.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        
                             </div>
                             <div class="item">
-                                <img src="img/product/sunglass-1.jpg" alt="">
+                                <img src="img/product/sunglass-3.jpg" alt="">
+                                <img src="images/sunglass-3.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        
                             </div>
                         </div>
                         <a class="add_cart_btn" href="#">Shop Now</a>
@@ -242,16 +254,23 @@
                     <div class="full_feature_text">
                         <div class="full_feature_text_inner">
                             <h4>Women Designer Sunglass</h4>
+                            
                             <h5>$45.05</h5>
                             <div class="sunglass_slider owl-carousel">
                                 <div class="item">
-                                    <img src="img/product/sunglass-2.jpg" alt="">
+                                    <img src="img/product/sunglass-1.jpg" alt="">
+                                     <img src="images/sunglass-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        
                                 </div>
                                 <div class="item">
                                     <img src="img/product/sunglass-2.jpg" alt="">
+                                     <img src="images/sunglass-2.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        
                                 </div>
                                 <div class="item">
-                                    <img src="img/product/sunglass-2.jpg" alt="">
+                                    <img src="img/product/sunglass-3.jpg" alt="">
+                                     <img src="images/sunglass-3.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        
                                 </div>
                             </div>
                             <a class="add_cart_btn" href="#">Shop Now</a>
@@ -259,30 +278,45 @@
                     </div>
                 </div>
                 <div class="left_full_feature">
+                  <img src="images/fullwidth-item-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        
                     <div class="full_feature_img">
                         <img src="img/fullwidth-item/fullwidth-item-2.jpg" alt="">
+                       
                     </div>
                 </div>
             </div>
             <div class="full_feature_item">
                 <div class="left_full_feature">
+                <img src="images/fullwidth-item-3.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        
                     <div class="full_feature_img">
                         <img src="img/fullwidth-item/fullwidth-item-3.jpg" alt="">
+                        
                     </div>
                 </div>
                 <div class="right_full_feature">
+               
                     <div class="full_feature_text">
                         <h4>Women Designer Sunglass</h4>
-                        <h5>$45.05</h5>
+                       
+                     
+                      <h5>$45.05</h5>
                         <div class="sunglass_slider owl-carousel">
                             <div class="item">
-                                <img src="img/product/sunglass-3.jpg" alt="">
+                                <img src="img/product/sunglass-1.jpg" alt="">
+                                 <img src="images/sunglass-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        
+                            </div>
+                            <div class="item">
+                                <img src="img/product/sunglass-2.jpg" alt="">
+                                 <img src="images/sunglass-2.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        
                             </div>
                             <div class="item">
                                 <img src="img/product/sunglass-3.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="img/product/sunglass-3.jpg" alt="">
+                                 <img src="images/sunglass-3.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        
                             </div>
                         </div>
                         <a class="add_cart_btn" href="#">Shop Now</a>
@@ -293,6 +327,7 @@
         <!--================End Full Width Feature Area =================-->
         
         <!--================Isotope Slider Area =================-->
+      
         <section class="fillter_product_slider_area">
             <div class="container">
                 <div class="fillter_product_inner">
@@ -374,6 +409,8 @@
                                             <li class="p_icon"><a href="#"><i class="icon_heart_alt"></i></a></li>
                                         </ul>
                                         <h4>Ricky Shirt</h4>
+                                         <img src="images/sunglass-3.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        
                                         <h5>$45.05</h5>
                                     </div>
                                 </div>
@@ -383,6 +420,7 @@
                 </div>
             </div>
         </section>
+      
         <!--================End Isotope Slider Area =================-->
 
 
