@@ -44,7 +44,8 @@
 <body>
 <%@ include file="header.html" %>
 
-
+ 
+<img src="images/img1.png"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
       
 
         <!--================Slider Area =================-->
@@ -219,6 +220,14 @@
         <section class="fullwidth_feature_area">
             <div class="full_feature_item">
                 <div class="left_full_feature">
+                
+                
+                
+                
+                <img src="images/fullwidth-item-2.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                         
+                
+                
                     <div class="full_feature_img">
                         <img src="img/fullwidth-item/fullwidth-item-1.jpg" alt="">
                     </div>
@@ -251,6 +260,8 @@
             </div>
             <div class="full_feature_item dir_right">
                 <div class="right_full_feature">
+             
+               
                     <div class="full_feature_text">
                         <div class="full_feature_text_inner">
                             <h4>Women Designer Sunglass</h4>
@@ -296,7 +307,7 @@
                     </div>
                 </div>
                 <div class="right_full_feature">
-               
+                 
                     <div class="full_feature_text">
                         <h4>Women Designer Sunglass</h4>
                        
@@ -326,8 +337,8 @@
         </section>
         <!--================End Full Width Feature Area =================-->
         
+
         <!--================Isotope Slider Area =================-->
-      
         <section class="fillter_product_slider_area">
             <div class="container">
                 <div class="fillter_product_inner">
@@ -344,7 +355,7 @@
                             <div class="fillter_product">
                                 <div class="l_product_item">
                                     <div class="l_p_img">
-                                        <img src="img/product/fillter-product/f-product-4.jpg" alt="">
+                                        <img src="images/products/fillter/f-product-4.jpg" alt="">
                                     </div>
                                     <div class="l_p_text">
                                         <ul>
@@ -362,7 +373,7 @@
                             <div class="fillter_product">
                                 <div class="l_product_item">
                                     <div class="l_p_img">
-                                        <img src="img/product/fillter-product/f-product-5.jpg" alt="">
+                                        <img src="images/products/fillter/f-product-5.jpg" alt="">
                                         <h5 class="new">New</h5>
                                     </div>
                                     <div class="l_p_text">
@@ -381,7 +392,7 @@
                             <div class="fillter_product">
                                 <div class="l_product_item">
                                     <div class="l_p_img">
-                                        <img src="img/product/fillter-product/f-product-6.jpg" alt="">
+                                        <img src="images/products/fillter/f-product-6.jpg" alt="">
                                     </div>
                                     <div class="l_p_text">
                                         <ul>
@@ -399,7 +410,7 @@
                             <div class="fillter_product">
                                 <div class="l_product_item">
                                     <div class="l_p_img">
-                                        <img src="img/product/fillter-product/f-product-7.jpg" alt="">
+                                        <img src="images/products/fillter/f-product-7.jpg" alt="">
                                         <h5 class="sale">Sale</h5>
                                     </div>
                                     <div class="l_p_text">
@@ -409,8 +420,6 @@
                                             <li class="p_icon"><a href="#"><i class="icon_heart_alt"></i></a></li>
                                         </ul>
                                         <h4>Ricky Shirt</h4>
-                                         <img src="images/sunglass-3.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                        
                                         <h5>$45.05</h5>
                                     </div>
                                 </div>
@@ -420,10 +429,8 @@
                 </div>
             </div>
         </section>
-      
         <!--================End Isotope Slider Area =================-->
-
-
+        
 
 
 
