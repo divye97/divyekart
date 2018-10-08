@@ -4,6 +4,7 @@
 <html>
 <head>
 
+<head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,39 +38,23 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+    </head>
+   
 
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-        <%@ include file="header.html" %>
 
- 
-<img src="images/img1.png"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-      
 
+ <body class="home_full_width">
+        
+             
         <!--================Slider Area =================-->
         <section class="main_slider_area">
             <div id="fullwidth_slider" class="rev_slider" data-version="5.3.1.6">
                 <ul>
-                    <li data-index="rs-1587" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="img/home-slider/slider-1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <li data-index="rs-1587" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="images/slider-1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    
-                     <img src="images/logo-white.png"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                    <img src="images/logo.png"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                    <img src="images/master-card.png"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                    <img src="images/supper-add-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                    
-                    <img src="images/parallax-2.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                     <img src="images/fav-icon.png"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                    
-                    
-                     <img src="images/slider-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                     <img src="images/slider-2.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                    
+                    <img src="images/fullwidth-item-2.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
 
-                       <!-- LAYER NR. 1 -->
-                        
+                        <!-- LAYER NR. 1 -->
                         <div class="slider_text_box">
                             <div class="tp-caption tp-resizeme first_text" 
                             data-x="['left','left','left','left','center','center']" 
@@ -101,9 +86,7 @@
                                 data-transform_idle="o:1;"
                                 data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
                                 data-textAlign="['left','left','left','left','center','center']"
-                                
                                 >Sunglass 
-                                
                             </div>
 
                             <div class="tp-caption tp-resizeme third_text" 
@@ -138,9 +121,9 @@
                             </div>
                         </div>
                     </li>
-                    <li data-index="rs-1588" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="img/home-slider/slider-2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <li data-index="rs-1588" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="images/slider-2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Creative" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="images/parallax-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                    <img src="images/full-width-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
                         <!-- LAYERS -->
 
@@ -161,7 +144,7 @@
                             data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
                             data-textAlign="['left','left','left','left','center','center']"
                             >WOMEN'S DESIGNER</div>
-                            
+
                             <div class="tp-caption tp-resizeme secand_text" 
                                 data-x="['left','left','left','left','center','center']" 
                                 data-hoffset="['0','00','00','0']" 
@@ -220,38 +203,23 @@
         <section class="fullwidth_feature_area">
             <div class="full_feature_item">
                 <div class="left_full_feature">
-                
-                
-                
-                
-                <img src="images/fullwidth-item-2.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                         
-                
-                
                     <div class="full_feature_img">
-                        <img src="img/fullwidth-item/fullwidth-item-1.jpg" alt="">
+                        <img src="images/fullwidth-item-1.jpg" alt="">
                     </div>
                 </div>
                 <div class="right_full_feature">
                     <div class="full_feature_text">
                         <h4>Women Designer Sunglass</h4>
-                         
                         <h5>$45.05</h5>
                         <div class="sunglass_slider owl-carousel">
                             <div class="item">
-                                <img src="img/product/sunglass-1.jpg" alt="">
-                                <img src="images/sunglass-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                        
+                                <img src="images/sunglass-1.jpg" alt="">
                             </div>
                             <div class="item">
-                                <img src="img/product/sunglass-2.jpg" alt="">
-                                <img src="images/sunglass-2.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                        
+                                <img src="images/sunglass-1.jpg" alt="">
                             </div>
                             <div class="item">
-                                <img src="img/product/sunglass-3.jpg" alt="">
-                                <img src="images/sunglass-3.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                        
+                                <img src="images/sunglass-1.jpg" alt="">
                             </div>
                         </div>
                         <a class="add_cart_btn" href="#">Shop Now</a>
@@ -260,28 +228,19 @@
             </div>
             <div class="full_feature_item dir_right">
                 <div class="right_full_feature">
-             
-               
                     <div class="full_feature_text">
                         <div class="full_feature_text_inner">
                             <h4>Women Designer Sunglass</h4>
-                            
                             <h5>$45.05</h5>
                             <div class="sunglass_slider owl-carousel">
                                 <div class="item">
-                                    <img src="img/product/sunglass-1.jpg" alt="">
-                                     <img src="images/sunglass-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                        
+                                    <img src="images/sunglass-2.jpg" alt="">
                                 </div>
                                 <div class="item">
-                                    <img src="img/product/sunglass-2.jpg" alt="">
-                                     <img src="images/sunglass-2.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                        
+                                    <img src="images/sunglass-2.jpg" alt="">
                                 </div>
                                 <div class="item">
-                                    <img src="img/product/sunglass-3.jpg" alt="">
-                                     <img src="images/sunglass-3.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                        
+                                    <img src="images/sunglass-2.jpg" alt="">
                                 </div>
                             </div>
                             <a class="add_cart_btn" href="#">Shop Now</a>
@@ -289,45 +248,30 @@
                     </div>
                 </div>
                 <div class="left_full_feature">
-                  <img src="images/fullwidth-item-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                        
                     <div class="full_feature_img">
                         <img src="images/fullwidth-item-2.jpg" alt="">
-                       
                     </div>
                 </div>
             </div>
             <div class="full_feature_item">
                 <div class="left_full_feature">
-                <img src="images/fullwidth-item-3.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                        
                     <div class="full_feature_img">
-                        <img src="imagesm/fullwidth-item-3.jpg" alt="">
-                        
+                        <img src="images/fullwidth-item-3.jpg" alt="">
                     </div>
                 </div>
                 <div class="right_full_feature">
-                 
                     <div class="full_feature_text">
                         <h4>Women Designer Sunglass</h4>
-                       
-                     
-                      <h5>$45.05</h5>
+                        <h5>$45.05</h5>
                         <div class="sunglass_slider owl-carousel">
                             <div class="item">
-                                <img src="img/product/sunglass-1.jpg" alt="">
-                                 <img src="images/sunglass-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                        
+                                <img src="images/sunglass-3.jpg" alt="">
                             </div>
                             <div class="item">
-                                <img src="img/product/sunglass-2.jpg" alt="">
-                                 <img src="images/sunglass-2.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                        
+                                <img src="images/sunglass-3.jpg" alt="">
                             </div>
                             <div class="item">
-                                <img src="img/product/sunglass-3.jpg" alt="">
-                                 <img src="images/sunglass-3.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-                        
+                                <img src="images/sunglass-3.jpg" alt="">
                             </div>
                         </div>
                         <a class="add_cart_btn" href="#">Shop Now</a>
@@ -337,7 +281,6 @@
         </section>
         <!--================End Full Width Feature Area =================-->
         
-
         <!--================Isotope Slider Area =================-->
         <section class="fillter_product_slider_area">
             <div class="container">
@@ -355,7 +298,7 @@
                             <div class="fillter_product">
                                 <div class="l_product_item">
                                     <div class="l_p_img">
-                                        <img src="images/products/fillter/f-product-4.jpg" alt="">
+                                        <img src="images/f-product-4.jpg" alt="">
                                     </div>
                                     <div class="l_p_text">
                                         <ul>
@@ -373,7 +316,7 @@
                             <div class="fillter_product">
                                 <div class="l_product_item">
                                     <div class="l_p_img">
-                                        <img src="images/products/fillter/f-product-5.jpg" alt="">
+                                        <img src="images/f-product-5.jpg" alt="">
                                         <h5 class="new">New</h5>
                                     </div>
                                     <div class="l_p_text">
@@ -392,7 +335,7 @@
                             <div class="fillter_product">
                                 <div class="l_product_item">
                                     <div class="l_p_img">
-                                        <img src="images/products/fillter/f-product-6.jpg" alt="">
+                                        <img src="images/f-product-6.jpg" alt="">
                                     </div>
                                     <div class="l_p_text">
                                         <ul>
@@ -410,7 +353,7 @@
                             <div class="fillter_product">
                                 <div class="l_product_item">
                                     <div class="l_p_img">
-                                        <img src="images/products/fillter/f-product-7.jpg" alt="">
+                                        <img src="images/f-product-7.jpg" alt="">
                                         <h5 class="sale">Sale</h5>
                                     </div>
                                     <div class="l_p_text">
@@ -431,13 +374,13 @@
         </section>
         <!--================End Isotope Slider Area =================-->
         
+        <!--================Footer Area =================-->
+ <%@ include file="footer.html" %>
 
-
-
-
-      <%@ include file="footer.html" %>
-
-               
+        <!--================End Footer Area =================-->
+        
+        
+        
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="js/jquery-3.2.1.min.js"></script>
@@ -467,9 +410,14 @@
         <script src="vendors/jquery-ui/jquery-ui.js"></script>
         
         <script src="js/theme.js"></script>
-       
-    
+    </body>
+</html>
 
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
 
 </body>
 </html>

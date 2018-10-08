@@ -3,10 +3,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
+
+<meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
@@ -40,9 +38,14 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-    </head>
-    <body>
-        
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+
         <!--================Menu Area =================-->
         <header class="shop_header_area carousel_menu_area">
             <div class="carousel_top_header row m0">
@@ -52,7 +55,7 @@
                             <div class="top_header_left">
                                 <div class="selector">
                                     <select class="language_drop" name="countries" id="countries" style="width:300px;">
-                                      <option value='yt' data-image="img/icon/flag-1.png" data-imagecss="flag yt" data-title="English">English</option>
+                                      <option value='yt' data-image="images/flag-1.png" data-imagecss="flag yt" data-title="English">English</option>
                                       <option value='yu' data-image="img/icon/flag-1.png" data-imagecss="flag yu" data-title="Bangladesh">Bangla</option>
                                       <option value='yt' data-image="img/icon/flag-1.png" data-imagecss="flag yt" data-title="English">English</option>
                                       <option value='yu' data-image="img/icon/flag-1.png" data-imagecss="flag yu" data-title="Bangladesh">Bangla</option>
@@ -67,8 +70,8 @@
                         </div>
                         <div class="float-md-right">
                             <div class="top_header_middle">
-                                <a href="#"><i class="fa fa-phone"></i> Call Us: <span>+94 987 654 321</span></a>
-                                <a href="#"><i class="fa fa-envelope"></i> Email: <span>aditygupta567@gmail.com</span></a>
+                                <a href="#"><i class="fa fa-phone"></i> Call Us: <span>+84 987 654 321</span></a>
+                                <a href="#"><i class="fa fa-envelope"></i> Email: <span>support@yourdomain.com</span></a>
                             </div>
                         </div>
                     </div>
@@ -91,27 +94,27 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item"><a class="nav-link" href="index.html">Home Simple</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="home-carousel.html">Product List</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="home-fullwidth.html">Home Full Width</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="pproduct-list.jsp">Product-List</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="index.jsp">Home Full Width</a></li>
                                         <li class="nav-item"><a class="nav-link" href="home-parallax.html">Home Parallax</a></li>
                                         <li class="nav-item"><a class="nav-link" href="home-sidebar.html">Home Boxed</a></li>
                                         <li class="nav-item"><a class="nav-link" href="home-fixed-menu.html">Home Fixed</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown submenu">
+                                <li class="nav-item dropdown submenu active">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Pages <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item"><a class="nav-link" href="compare.html">Compare</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="checkout.html">Checkout Method</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="checkout.jsp">Checkout Method</a></li>
                                         <li class="nav-item"><a class="nav-link" href="register.html">Checkout Register</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="track.html">Track</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="track.jsp">Track</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="login.jsp">Login</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="404.jsp">404</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown submenu active">
+                                <li class="nav-item dropdown submenu">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Shop <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </a>
@@ -125,8 +128,8 @@
                                         <li class="nav-item"><a class="nav-link" href="product-details.html">Prodcut Details 01</a></li>
                                         <li class="nav-item"><a class="nav-link" href="product-details2.html">Prodcut Details 02</a></li>
                                         <li class="nav-item"><a class="nav-link" href="product-details3.html">Prodcut Details 03</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="shopping-cart.html">Shopping Cart 01</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="shopping-cart2.html">Shopping Cart 02</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="cart.jsp">Shopping Cart 01</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="cart2.jsp">Shopping Cart 02</a></li>
                                         <li class="nav-item"><a class="nav-link" href="cart.jsp">Empty Cart</a></li>
                                     </ul>
                                 </li>
@@ -150,10 +153,10 @@
         <section class="solid_banner_area">
             <div class="container">
                 <div class="solid_banner_inner">
-                    <h3>empty cart</h3>
+                    <h3>error page</h3>
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="cart.jsp">empty cart</a></li>
+                        <li><a href="404.html">Error Page</a></li>
                     </ul>
                 </div>
             </div>
@@ -161,104 +164,21 @@
         <!--================End Categories Banner Area =================-->
         
         <!--================login Area =================-->
-        <section class="emty_cart_area p_100">
+        <section class="error_area p_100">
             <div class="container">
-                <div class="emty_cart_inner">
-                    <i class="icon-handbag icons"></i>
-                    <h3>Your Cart is Empty</h3>
-                    <h4>back to <a href="#">shopping</a></h4>
+                <div class="error_inner">
+                    <h4>404</h4>
+                    <h5>Error - Not Found</h5>
+                    <p>Sorrey Weâ€™re not able to find what you looking for</p>
+                    <h6>back to <a href="index.jsp">Home</a></h6>
                 </div>
             </div>
         </section>
         <!--================End login Area =================-->
         
-        <!--================Footer Area =================-->
-        <footer class="footer_area">
-            <div class="container">
-                <div class="footer_widgets">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-6">
-                            <aside class="f_widget f_about_widget">
-                                <img src="img/logo.png" alt="">
-                                <p>Persuit is a Premium PSD Template. Best choice for your online store. Let purchase it to enjoy now</p>
-                                <h6>Social:</h6>
-                                <ul>
-                                    <li><a href="#"><i class="social_facebook"></i></a></li>
-                                    <li><a href="#"><i class="social_twitter"></i></a></li>
-                                    <li><a href="#"><i class="social_pinterest"></i></a></li>
-                                    <li><a href="#"><i class="social_instagram"></i></a></li>
-                                    <li><a href="#"><i class="social_youtube"></i></a></li>
-                                </ul>
-                            </aside>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <aside class="f_widget link_widget f_info_widget">
-                                <div class="f_w_title">
-                                    <h3>Information</h3>
-                                </div>
-                                <ul>
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">Delivery information</a></li>
-                                    <li><a href="#">Terms & Conditions</a></li>
-                                    <li><a href="#">Help Center</a></li>
-                                    <li><a href="#">Returns & Refunds</a></li>
-                                </ul>
-                            </aside>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <aside class="f_widget link_widget f_service_widget">
-                                <div class="f_w_title">
-                                    <h3>Customer Service</h3>
-                                </div>
-                                <ul>
-                                    <li><a href="#">My account</a></li>
-                                    <li><a href="#">Ordr History</a></li>
-                                    <li><a href="#">Wish List</a></li>
-                                    <li><a href="#">Newsletter</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                </ul>
-                            </aside>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <aside class="f_widget link_widget f_extra_widget">
-                                <div class="f_w_title">
-                                    <h3>Extras</h3>
-                                </div>
-                                <ul>
-                                    <li><a href="#">Brands</a></li>
-                                    <li><a href="#">Gift Vouchers</a></li>
-                                    <li><a href="#">Affiliates</a></li>
-                                    <li><a href="#">Specials</a></li>
-                                </ul>
-                            </aside>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <aside class="f_widget link_widget f_account_widget">
-                                <div class="f_w_title">
-                                    <h3>My Account</h3>
-                                </div>
-                                <ul>
-                                    <li><a href="#">My account</a></li>
-                                    <li><a href="#">Ordr History</a></li>
-                                    <li><a href="#">Wish List</a></li>
-                                    <li><a href="#">Newsletter</a></li>
-                                </ul>
-                            </aside>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_copyright">
-                    <h5>© <script>document.write(new Date().getFullYear());</script> <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</h5>
-                </div>
-            </div>
-        </footer>
-        <!--================End Footer Area =================-->
-        
-        
-        
+<%@ include file="footer.html" %>
+
+               
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="js/jquery-3.2.1.min.js"></script>
@@ -288,20 +208,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="vendors/jquery-ui/jquery-ui.js"></script>
         
         <script src="js/theme.js"></script>
-    </body>
-</html>
-
-
-
-
-
-
-
-
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
 
 </body>
 </html>

@@ -52,7 +52,7 @@
                             <div class="top_header_left">
                                 <div class="selector">
                                     <select class="language_drop" name="countries" id="countries" style="width:300px;">
-                                      <option value='yt' data-image="img/icon/flag-1.png" data-imagecss="flag yt" data-title="English">English</option>
+                                      <option value='yt' data-image="images/flag-1.png" data-imagecss="flag yt" data-title="English">English</option>
                                       <option value='yu' data-image="img/icon/flag-1.png" data-imagecss="flag yu" data-title="Bangladesh">Bangla</option>
                                       <option value='yt' data-image="img/icon/flag-1.png" data-imagecss="flag yt" data-title="English">English</option>
                                       <option value='yu' data-image="img/icon/flag-1.png" data-imagecss="flag yu" data-title="Bangladesh">Bangla</option>
@@ -91,27 +91,27 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item"><a class="nav-link" href="index.html">Home Simple</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="home-carousel.html">Product List</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="home-carousel.html">Home Carousel</a></li>
                                         <li class="nav-item"><a class="nav-link" href="home-fullwidth.html">Home Full Width</a></li>
                                         <li class="nav-item"><a class="nav-link" href="home-parallax.html">Home Parallax</a></li>
                                         <li class="nav-item"><a class="nav-link" href="home-sidebar.html">Home Boxed</a></li>
                                         <li class="nav-item"><a class="nav-link" href="home-fixed-menu.html">Home Fixed</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown submenu">
+                                <li class="nav-item dropdown submenu active">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Pages <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-link" href="compare.html">Compare</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="checkout.html">Checkout Method</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="compare.jpg">Compare</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="checkout.jpg">Checkout Method</a></li>
                                         <li class="nav-item"><a class="nav-link" href="register.html">Checkout Register</a></li>
                                         <li class="nav-item"><a class="nav-link" href="track.html">Track</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="login.jpg">Login</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="404.jpg">404</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown submenu active">
+                                <li class="nav-item dropdown submenu">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Shop <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </a>
@@ -125,14 +125,14 @@
                                         <li class="nav-item"><a class="nav-link" href="product-details.html">Prodcut Details 01</a></li>
                                         <li class="nav-item"><a class="nav-link" href="product-details2.html">Prodcut Details 02</a></li>
                                         <li class="nav-item"><a class="nav-link" href="product-details3.html">Prodcut Details 03</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="shopping-cart.html">Shopping Cart 01</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="shopping-cart2.html">Shopping Cart 02</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="cart.jsp">Empty Cart</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="cart1.jpg">Shopping Cart 01</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="cart2.jpg">Shopping Cart 02</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="cart.jpg">Empty Cart</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#">lookbook</a></li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.jpg">Contact</a></li>
                             </ul>
                             <ul class="navbar-nav justify-content-end">
                                 <li class="search_icon"><a href="#"><i class="icon-magnifier icons"></i></a></li>
@@ -147,114 +147,192 @@
         <!--================End Menu Area =================-->
         
         <!--================Categories Banner Area =================-->
-        <section class="solid_banner_area">
+        <section class="categories_banner_area">
             <div class="container">
-                <div class="solid_banner_inner">
-                    <h3>empty cart</h3>
+                <div class="c_banner_inner">
+                    <h3>simple product Layout 03</h3>
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="cart.jsp">empty cart</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li class="current"><a href="product-details2.html">Simple Product 03</a></li>
                     </ul>
                 </div>
             </div>
         </section>
         <!--================End Categories Banner Area =================-->
         
-        <!--================login Area =================-->
-        <section class="emty_cart_area p_100">
+        <!--================Product Compare Area =================-->
+        <section class="product_compare_area">
             <div class="container">
-                <div class="emty_cart_inner">
-                    <i class="icon-handbag icons"></i>
-                    <h3>Your Cart is Empty</h3>
-                    <h4>back to <a href="#">shopping</a></h4>
+                <div class="compare_table">
+                    <div class="table-responsive-md">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Samsunga galaxy l7</th>
+                                    <th scope="col">xiaomi redmi note 4</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row"><span>Summary</span></th>
+                                    <td>
+                                        <img src="images/compare-1.png" alt="">
+                                        <h3><span>Price</span> $250.00</h3>
+                                        <ul>
+                                            <li class="p_icon"><a href="#"><i class="icon_piechart"></i></a></li>
+                                            <li><a class="add_cart_btn" href="#">Add To Cart</a></li>
+                                            <li class="p_icon"><a href="#"><i class="icon_heart_alt"></i></a></li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <img src="images/compare-2.png" alt="">
+                                        <h3><span>Price</span> $200.00</h3>
+                                        <ul>
+                                            <li class="p_icon"><a href="#"><i class="icon_piechart"></i></a></li>
+                                            <li><a class="add_cart_btn" href="#">Add To Cart</a></li>
+                                            <li class="p_icon"><a href="#"><i class="icon_heart_alt"></i></a></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><span>Network</span></th>
+                                    <td>
+                                        <h6>GSM / HSPA / LTE</h6>
+                                    </td>
+                                    <td><h6>GSM / HSPA / LTE</h6></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><span>Launch</span></th>
+                                    <td><h6>2016, August</h6></td>
+                                    <td><h6>2016, August</h6></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><span>Body</span></th>
+                                    <td><h6>151.7 x 75 x 8 mm</h6></td>
+                                    <td><h6>151.7 x 75 x 8 mm</h6></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><span>Display</span></th>
+                                    <td><h6>PLS TFT Capacitive Touchscreen</h6></td>
+                                    <td><h6>PLS TFT Capacitive Touchscreen</h6></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><span>Platform</span></th>
+                                    <td><h6>Android OS</h6></td>
+                                    <td><h6>Android OS</h6></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><span>Memory</span></th>
+                                    <td><h6>MicroSD,Up to 256 GB</h6></td>
+                                    <td><h6>MicroSD,Up to 256 GB</h6></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><span>Camera</span></th>
+                                    <td><h6>13 MP, f/1.9 28, Autofocus</h6></td>
+                                    <td><h6>13 MP, f/1.9 28, Autofocus</h6></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <a class="add_cart_btn continue" href="#">continue shopping</a>
                 </div>
             </div>
         </section>
-        <!--================End login Area =================-->
+        <!--================End Product Compare Area =================-->
         
-        <!--================Footer Area =================-->
-        <footer class="footer_area">
+        <!--================End Related Product Area =================-->
+        <section class="related_product_area">
             <div class="container">
-                <div class="footer_widgets">
+                <div class="related_product_inner">
+                    <h2 class="single_c_title">Related Product</h2>
                     <div class="row">
-                        <div class="col-lg-4 col-md-4 col-6">
-                            <aside class="f_widget f_about_widget">
-                                <img src="img/logo.png" alt="">
-                                <p>Persuit is a Premium PSD Template. Best choice for your online store. Let purchase it to enjoy now</p>
-                                <h6>Social:</h6>
-                                <ul>
-                                    <li><a href="#"><i class="social_facebook"></i></a></li>
-                                    <li><a href="#"><i class="social_twitter"></i></a></li>
-                                    <li><a href="#"><i class="social_pinterest"></i></a></li>
-                                    <li><a href="#"><i class="social_instagram"></i></a></li>
-                                    <li><a href="#"><i class="social_youtube"></i></a></li>
-                                </ul>
-                            </aside>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <aside class="f_widget link_widget f_info_widget">
-                                <div class="f_w_title">
-                                    <h3>Information</h3>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="l_product_item">
+                                <div class="l_p_img">
+                                    <img class="img-fluid" src="images/r-product-5.jpg" alt="">
                                 </div>
-                                <ul>
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">Delivery information</a></li>
-                                    <li><a href="#">Terms & Conditions</a></li>
-                                    <li><a href="#">Help Center</a></li>
-                                    <li><a href="#">Returns & Refunds</a></li>
-                                </ul>
-                            </aside>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <aside class="f_widget link_widget f_service_widget">
-                                <div class="f_w_title">
-                                    <h3>Customer Service</h3>
+                                <div class="l_p_text">
+                                   <ul>
+                                        <li class="p_icon"><a href="#"><i class="icon_piechart"></i></a></li>
+                                        <li><a class="add_cart_btn" href="#">Add To Cart</a></li>
+                                        <li class="p_icon"><a href="#"><i class="icon_heart_alt"></i></a></li>
+                                    </ul>
+                                    <h4>Samsung  A5</h4>
+                                    <h5>$150.00</h5>
                                 </div>
-                                <ul>
-                                    <li><a href="#">My account</a></li>
-                                    <li><a href="#">Ordr History</a></li>
-                                    <li><a href="#">Wish List</a></li>
-                                    <li><a href="#">Newsletter</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                </ul>
-                            </aside>
+                            </div>
                         </div>
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <aside class="f_widget link_widget f_extra_widget">
-                                <div class="f_w_title">
-                                    <h3>Extras</h3>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="l_product_item">
+                                <div class="l_p_img">
+                                    <img class="img-fluid" src="images/r-product-6.jpg" alt="">
+                                    <h5 class="new">New</h5>
                                 </div>
-                                <ul>
-                                    <li><a href="#">Brands</a></li>
-                                    <li><a href="#">Gift Vouchers</a></li>
-                                    <li><a href="#">Affiliates</a></li>
-                                    <li><a href="#">Specials</a></li>
-                                </ul>
-                            </aside>
+                                <div class="l_p_text">
+                                   <ul>
+                                        <li class="p_icon"><a href="#"><i class="icon_piechart"></i></a></li>
+                                        <li><a class="add_cart_btn" href="#">Add To Cart</a></li>
+                                        <li class="p_icon"><a href="#"><i class="icon_heart_alt"></i></a></li>
+                                    </ul>
+                                    <h4>Iphone 6</h4>
+                                    <h5><del>$800</del> $650</h5>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <aside class="f_widget link_widget f_account_widget">
-                                <div class="f_w_title">
-                                    <h3>My Account</h3>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="l_product_item">
+                                <div class="l_p_img">
+                                    <img class="img-fluid" src="images/r-product-7.jpg" alt="">
                                 </div>
-                                <ul>
-                                    <li><a href="#">My account</a></li>
-                                    <li><a href="#">Ordr History</a></li>
-                                    <li><a href="#">Wish List</a></li>
-                                    <li><a href="#">Newsletter</a></li>
-                                </ul>
-                            </aside>
+                                <div class="l_p_text">
+                                   <ul>
+                                        <li class="p_icon"><a href="#"><i class="icon_piechart"></i></a></li>
+                                        <li><a class="add_cart_btn" href="#">Add To Cart</a></li>
+                                        <li class="p_icon"><a href="#"><i class="icon_heart_alt"></i></a></li>
+                                    </ul>
+                                    <h4>Galaxy S8 4G 64GB</h4>
+                                    <h5>$800</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="l_product_item">
+                                <div class="l_p_img">
+                                    <img class="img-fluid" src="images/r-product-8.jpg" alt="">
+                                    <h5 class="sale">Sale</h5>
+                                </div>
+                                <div class="l_p_text">
+                                   <ul>
+                                        <li class="p_icon"><a href="#"><i class="icon_piechart"></i></a></li>
+                                        <li><a class="add_cart_btn" href="#">Add To Cart</a></li>
+                                        <li class="p_icon"><a href="#"><i class="icon_heart_alt"></i></a></li>
+                                    </ul>
+                                    <h4>Sony Xperia Z3</h4>
+                                    <h5>$350</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="footer_copyright">
-                    <h5>© <script>document.write(new Date().getFullYear());</script> <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</h5>
+                    <nav aria-label="Page navigation example" class="pagination_area">
+                      <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item"><a class="page-link" href="#">6</a></li>
+                        <li class="page-item next"><a class="page-link" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                      </ul>
+                    </nav>
                 </div>
             </div>
-        </footer>
+        </section>
+        <!--================End Related Product Area =================-->
+        
+        <!--================Footer Area =================-->
+       <%@ include file="footer.html" %>
         <!--================End Footer Area =================-->
         
         
@@ -290,12 +368,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="js/theme.js"></script>
     </body>
 </html>
-
-
-
-
-
-
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">

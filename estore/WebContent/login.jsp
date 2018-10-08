@@ -91,7 +91,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item"><a class="nav-link" href="index.html">Home Simple</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="home-carousel.html">Home Carousel</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="home-carousel.html">Product List</a></li>
                                         <li class="nav-item"><a class="nav-link" href="home-fullwidth.html">Home Full Width</a></li>
                                         <li class="nav-item"><a class="nav-link" href="home-parallax.html">Home Parallax</a></li>
                                         <li class="nav-item"><a class="nav-link" href="home-sidebar.html">Home Boxed</a></li>

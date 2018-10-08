@@ -3,6 +3,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -52,7 +54,7 @@
                             <div class="top_header_left">
                                 <div class="selector">
                                     <select class="language_drop" name="countries" id="countries" style="width:300px;">
-                                      <option value='yt' data-image="img/icon/flag-1.png" data-imagecss="flag yt" data-title="English">English</option>
+                                      <option value='yt' data-image="images/flag-1.png" data-imagecss="flag yt" data-title="English">English</option>
                                       <option value='yu' data-image="img/icon/flag-1.png" data-imagecss="flag yu" data-title="Bangladesh">Bangla</option>
                                       <option value='yt' data-image="img/icon/flag-1.png" data-imagecss="flag yt" data-title="English">English</option>
                                       <option value='yu' data-image="img/icon/flag-1.png" data-imagecss="flag yu" data-title="Bangladesh">Bangla</option>
@@ -91,27 +93,27 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item"><a class="nav-link" href="index.html">Home Simple</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="home-carousel.html">Product List</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="pproduct_list.jsp">Product List</a></li>
                                         <li class="nav-item"><a class="nav-link" href="home-fullwidth.html">Home Full Width</a></li>
                                         <li class="nav-item"><a class="nav-link" href="home-parallax.html">Home Parallax</a></li>
                                         <li class="nav-item"><a class="nav-link" href="home-sidebar.html">Home Boxed</a></li>
                                         <li class="nav-item"><a class="nav-link" href="home-fixed-menu.html">Home Fixed</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown submenu">
+                                <li class="nav-item dropdown submenu active">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Pages <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item"><a class="nav-link" href="compare.html">Compare</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="checkout.html">Checkout Method</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="checkout.jsp">Checkout Method</a></li>
                                         <li class="nav-item"><a class="nav-link" href="register.html">Checkout Register</a></li>
                                         <li class="nav-item"><a class="nav-link" href="track.html">Track</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="login.jsp">Login</a></li>
                                         <li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown submenu active">
+                                <li class="nav-item dropdown submenu">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Shop <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </a>
@@ -125,8 +127,8 @@
                                         <li class="nav-item"><a class="nav-link" href="product-details.html">Prodcut Details 01</a></li>
                                         <li class="nav-item"><a class="nav-link" href="product-details2.html">Prodcut Details 02</a></li>
                                         <li class="nav-item"><a class="nav-link" href="product-details3.html">Prodcut Details 03</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="shopping-cart.html">Shopping Cart 01</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="shopping-cart2.html">Shopping Cart 02</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="cart1.jsp">Shopping Cart 01</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="cart2.jsp">Shopping Cart 02</a></li>
                                         <li class="nav-item"><a class="nav-link" href="cart.jsp">Empty Cart</a></li>
                                     </ul>
                                 </li>
@@ -150,111 +152,80 @@
         <section class="solid_banner_area">
             <div class="container">
                 <div class="solid_banner_inner">
-                    <h3>empty cart</h3>
+                    <h3>checkout method</h3>
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="cart.jsp">empty cart</a></li>
+                        <li><a href="checkout.html">Checkout Method</a></li>
                     </ul>
                 </div>
             </div>
         </section>
         <!--================End Categories Banner Area =================-->
         
-        <!--================login Area =================-->
-        <section class="emty_cart_area p_100">
+        <!--================End Categories Banner Area =================-->
+        <section class="checkout_method_area p_100">
             <div class="container">
-                <div class="emty_cart_inner">
-                    <i class="icon-handbag icons"></i>
-                    <h3>Your Cart is Empty</h3>
-                    <h4>back to <a href="#">shopping</a></h4>
-                </div>
-            </div>
-        </section>
-        <!--================End login Area =================-->
-        
-        <!--================Footer Area =================-->
-        <footer class="footer_area">
-            <div class="container">
-                <div class="footer_widgets">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-6">
-                            <aside class="f_widget f_about_widget">
-                                <img src="img/logo.png" alt="">
-                                <p>Persuit is a Premium PSD Template. Best choice for your online store. Let purchase it to enjoy now</p>
-                                <h6>Social:</h6>
-                                <ul>
-                                    <li><a href="#"><i class="social_facebook"></i></a></li>
-                                    <li><a href="#"><i class="social_twitter"></i></a></li>
-                                    <li><a href="#"><i class="social_pinterest"></i></a></li>
-                                    <li><a href="#"><i class="social_instagram"></i></a></li>
-                                    <li><a href="#"><i class="social_youtube"></i></a></li>
-                                </ul>
-                            </aside>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <aside class="f_widget link_widget f_info_widget">
-                                <div class="f_w_title">
-                                    <h3>Information</h3>
+                <div class="row">
+                    <div class="checkout_main_area">
+                        <div class="checkout_prosses">
+                            <div class="row m0">
+                                <div class="col-md-6">
+                                    <div class="checkout_method">
+                                        <h3>check as a guest or register</h3>
+                                        <h4>Register with us for future convenience:</h4>
+                                         <form role="form" class="radio_area">
+                                            <ul class="radio_style">
+                                                <li>
+                                                    <input type="radio" id="f-option" name="selector">
+                                                    <label for="f-option">checkt as guest</label>
+                                                    <div class="check"></div>
+                                                </li>
+                                                <li>
+                                                    <input type="radio" id="s-option" name="selector">
+                                                    <label for="s-option">register</label>
+                                                    <div class="check"><div class="inside"></div></div>
+                                                </li>
+                                            </ul>
+                                          </form>
+                                          <h5>register and save time !</h5>
+                                          <h6>Register with us for future convenience:</h6>
+                                          <a class="checkout_list" href="#"><i class="arrow_carrot-right"></i> Fast and easy check out</a>
+                                          <a class="checkout_list" href="#"><i class="arrow_carrot-right"></i> Easy access to your order history and status</a>
+                                          <a class="update_btn" href="#"><span>continue</span></a>
+                                    </div>
                                 </div>
-                                <ul>
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">Delivery information</a></li>
-                                    <li><a href="#">Terms & Conditions</a></li>
-                                    <li><a href="#">Help Center</a></li>
-                                    <li><a href="#">Returns & Refunds</a></li>
-                                </ul>
-                            </aside>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <aside class="f_widget link_widget f_service_widget">
-                                <div class="f_w_title">
-                                    <h3>Customer Service</h3>
+                                <div class="col-md-6">
+                                    <div class="row checkout_from_area">
+                                       <h2>already registed ?</h2>
+                                       <p>Please log in below :</p>
+                                        <form role="form">
+                                            <div class="form-group">
+                                                <label for="email">Email address <span>*</span></label>
+                                                <input type="email" class="form-control" id="email">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="pwd">Password <span>*</span></label>
+                                                <input type="password" class="form-control" id="pwd">
+                                            </div>
+                                            <h3>* Required Filelds</h3>
+                                            <div class="forgot_area">
+                                                <button type="submit" class="btn update_btn btn-default">log in</button>
+                                                <h4>Forgot Your Password ?</h4>
+                                            </div>
+                                        </form>
+                                    </div>
                                 </div>
-                                <ul>
-                                    <li><a href="#">My account</a></li>
-                                    <li><a href="#">Ordr History</a></li>
-                                    <li><a href="#">Wish List</a></li>
-                                    <li><a href="#">Newsletter</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                </ul>
-                            </aside>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <aside class="f_widget link_widget f_extra_widget">
-                                <div class="f_w_title">
-                                    <h3>Extras</h3>
-                                </div>
-                                <ul>
-                                    <li><a href="#">Brands</a></li>
-                                    <li><a href="#">Gift Vouchers</a></li>
-                                    <li><a href="#">Affiliates</a></li>
-                                    <li><a href="#">Specials</a></li>
-                                </ul>
-                            </aside>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <aside class="f_widget link_widget f_account_widget">
-                                <div class="f_w_title">
-                                    <h3>My Account</h3>
-                                </div>
-                                <ul>
-                                    <li><a href="#">My account</a></li>
-                                    <li><a href="#">Ordr History</a></li>
-                                    <li><a href="#">Wish List</a></li>
-                                    <li><a href="#">Newsletter</a></li>
-                                </ul>
-                            </aside>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="footer_copyright">
-                    <h5>© <script>document.write(new Date().getFullYear());</script> <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</h5>
-                </div>
             </div>
-        </footer>
+        </section>
+        <!--================End Categories Banner Area =================-->
+        
+        <!--================Footer Area =================-->
+ <%@ include file="footer.html" %>
+ 
         <!--================End Footer Area =================-->
         
         
@@ -290,12 +261,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="js/theme.js"></script>
     </body>
 </html>
-
-
-
-
-
-
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
