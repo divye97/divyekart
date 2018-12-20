@@ -13,7 +13,7 @@ import pojo.Customer;
 /**
  * Servlet implementation class register
  */
-@WebServlet("/register")
+//@WebServlet("register")
 public class register extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -31,18 +31,22 @@ public class register extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
-		String name=request.getParameter("name");
-		String id=request.getParameter("id");
+		String uname=request.getParameter("uname");
+		String email=request.getParameter("email");
+		
 		String password=request.getParameter("password");
+		String repassword=request.getParameter("repassword");
 		String phone=request.getParameter("Phone");
+		
 		Customer c=new Customer();
-		c.setName(name);
-		c.setId(id);
+		c.setName(uname);
+		c.setEmail(email);
 		c.setPassword(password);
+		c.setPassword(repassword);
 		c.setPhone(phone);
 		
-		
-		int ss=CustomerDao.insertCustomer(c);
+	int ss = CustomerDao.register(c);	
+	
 		if(ss>0)
 		{
 			System.out.println("Record inserted Successfully");

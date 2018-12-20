@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,11 +38,12 @@
         <![endif]-->
     </head>
     <body>
-        
+      
         <!--================Menu Area =================-->
         
         <header class="shop_header_area carousel_menu_area">
          
+    
             <div class="carousel_top_header row m0">
                 <div class="container">
                     <div class="carousel_top_h_inner">
@@ -179,12 +181,12 @@
                                 <h2>log in your account</h2>
                                 <p>Log in to your account to discovery all great features in this template.</p>
                             </div>
-                            <form class="login_form row">
+                            <form class="login_form row" action="Loginservlet">
                                 <div class="col-lg-12 form-group">
-                                    <input class="form-control" type="text" placeholder=" User Name">
+                                    <input class="form-control" type="text" placeholder=" User Name" name="uname">
                                 </div>
                                 <div class="col-lg-12 form-group">
-                                    <input class="form-control" type="text" placeholder="Password">
+                                    <input class="form-control" type="Password" placeholder="Password" name="pass">
                                 </div>
                                 <div class="col-lg-12 form-group">
                                     <div class="creat_account">
@@ -195,8 +197,7 @@
                                     <h4>Forgot your password ?</h4>
                                 </div>
                                 <div class="col-lg-12 form-group">
-                                    <button type="submit" value="submit" class="btn update_btn form-control">Login</button>
-                                </div>
+                                    <button type="submit" value="submit" class="btn update_btn form-control">Login</button>                                </div>
                             </form>
                         </div>
                         <div class="col-lg-8">
@@ -204,24 +205,24 @@
                                 <h2>create account</h2>
                                 <p>Follow the steps below to create email account enjoy the great mail.com emailing experience. Vivamus tempus risus vel felis condimentum, non vehicula est iaculis.</p>
                             </div>
-                            <form class="login_form row">
+                            <form class="login_form row" action="register">
                                 <div class="col-lg-6 form-group">
-                                    <input class="form-control" type="text" placeholder="Name">
+                                    <input class="form-control" type="text" placeholder="Name" name="uname">
                                 </div>
                                 <div class="col-lg-6 form-group">
-                                    <input class="form-control" type="email" placeholder="Email">
+                                    <input class="form-control" type="email" placeholder="Email" name="email">
                                 </div>
                                 <div class="col-lg-6 form-group">
                                     <input class="form-control" type="text" placeholder="User name">
                                 </div>
                                 <div class="col-lg-6 form-group">
-                                    <input class="form-control" type="text" placeholder="Phone">
+                                    <input class="form-control" type="text" placeholder="Phone" name="Phone">
                                 </div>
                                 <div class="col-lg-6 form-group">
-                                    <input class="form-control" type="password" placeholder="Password">
+                                    <input class="form-control" type="password" placeholder="Password" name="password">
                                 </div>
                                 <div class="col-lg-6 form-group">
-                                    <input class="form-control" type="password" placeholder="Re-Password">
+                                    <input class="form-control" type="password" placeholder="Re-Password" name="repassword">
                                 </div>
                                 <div class="col-lg-6 form-group">
                                     <button type="submit" value="submit" class="btn subs_btn form-control">register now</button>

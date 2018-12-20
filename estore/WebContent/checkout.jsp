@@ -55,9 +55,9 @@
                                 <div class="selector">
                                     <select class="language_drop" name="countries" id="countries" style="width:300px;">
                                       <option value='yt' data-image="images/flag-1.png" data-imagecss="flag yt" data-title="English">English</option>
-                                      <option value='yu' data-image="img/icon/flag-1.png" data-imagecss="flag yu" data-title="Bangladesh">Bangla</option>
-                                      <option value='yt' data-image="img/icon/flag-1.png" data-imagecss="flag yt" data-title="English">English</option>
-                                      <option value='yu' data-image="img/icon/flag-1.png" data-imagecss="flag yu" data-title="Bangladesh">Bangla</option>
+                                      <option value='yu' data-image="images/icon/flag-1.png" data-imagecss="flag yu" data-title="Bangladesh">Bangla</option>
+                                      <option value='yt' data-image="images/icon/flag-1.png" data-imagecss="flag yt" data-title="English">English</option>
+                                      <option value='yu' data-image="images/icon/flag-1.png" data-imagecss="flag yu" data-title="Bangladesh">Bangla</option>
                                     </select>
                                 </div>
                                 <select class="selectpicker usd_select">
@@ -92,12 +92,12 @@
                                     Home <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-link" href="index.html">Home Simple</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="index.jsp">Home Simple</a></li>
                                         <li class="nav-item"><a class="nav-link" href="pproduct_list.jsp">Product List</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="home-fullwidth.html">Home Full Width</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="home-parallax.html">Home Parallax</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="home-sidebar.html">Home Boxed</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="home-fixed-menu.html">Home Fixed</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="home-fullwidth.jsp">Home Full Width</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="home-parallax.jsp">Home Parallax</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="home-sidebar.jsp">Home Boxed</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="home-fixed-menu.jsp">Home Fixed</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown submenu active">
@@ -105,12 +105,12 @@
                                     Pages <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-link" href="compare.html">Compare</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="compare.jsp">Compare</a></li>
                                         <li class="nav-item"><a class="nav-link" href="checkout.jsp">Checkout Method</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="register.html">Checkout Register</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="track.html">Track</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="register.jsp">Checkout Register</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="track.jsp">Track</a></li>
                                         <li class="nav-item"><a class="nav-link" href="login.jsp">Login</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="404.jsp">404</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown submenu">
@@ -124,9 +124,9 @@
                                         <li class="nav-item"><a class="nav-link" href="categories-left-sidebar.html">Categories Left Sidebar</a></li>
                                         <li class="nav-item"><a class="nav-link" href="categories-right-sidebar.html">Categories Right Sidebar</a></li>
                                         <li class="nav-item"><a class="nav-link" href="categories-grid-left-sidebar.html">Categories Grid Sidebar</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="product-details.html">Prodcut Details 01</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="product-details2.html">Prodcut Details 02</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="product-details3.html">Prodcut Details 03</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="product-details.jsp">Prodcut Details 01</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="product_details2.jsp">Prodcut Details 02</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="product_details3.jsp">Prodcut Details 03</a></li>
                                         <li class="nav-item"><a class="nav-link" href="cart1.jsp">Shopping Cart 01</a></li>
                                         <li class="nav-item"><a class="nav-link" href="cart2.jsp">Shopping Cart 02</a></li>
                                         <li class="nav-item"><a class="nav-link" href="cart.jsp">Empty Cart</a></li>
@@ -134,7 +134,7 @@
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#">lookbook</a></li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.jsp">Contact</a></li>
                             </ul>
                             <ul class="navbar-nav justify-content-end">
                                 <li class="search_icon"><a href="#"><i class="icon-magnifier icons"></i></a></li>
